@@ -51,6 +51,9 @@ initContainers: []
   #     - mountPath: /target
   #       name: plugins
 
+# Side-containers to add to the Velero deployment's pod spec.
+sideContainers: []
+
 # SecurityContext to use for the Velero deployment. Optional.
 # Set fsGroup for `AWS IAM Roles for Service Accounts`
 # see more informations at: https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html
